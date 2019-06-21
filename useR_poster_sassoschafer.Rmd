@@ -104,7 +104,7 @@ knitr::include_graphics('job_posting.png')
   
   
 
-```{r, echo=FALSE, dpi=300, out.width='100%', out.height="125%"}
+```{r, echo=FALSE, dpi=300, out.width='100%', out.height="125%", dpi = 300}
 knitr::include_graphics('pubs.png')
 ```
 
