@@ -3,6 +3,7 @@ title: 'Transitioning from Academia to Industry'
 output:
   postr::flex_dashboard_poster:
     render_print: true
+    css: ["~/Desktop/fontawesome-free-5.9.0-web/css/all.css"]
 ---
 
 ```{r setup, include=FALSE}
@@ -10,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(postr)
 library(fontawesome)
 library(tidyverse)
+library(emo)
 ```
 
 <style>                     
@@ -18,36 +20,37 @@ library(tidyverse)
   border-color:#ffffff;
 }
 
-
 </style>   
 
 
-## Header row {data-height=10}
+
+## Header row {data-height=8}
 
 ###
 
+
 <table style="width:100%">
   <tr>
-  <td><center><h4>
+  <td><center><h3>
   **Transitioning from Academia to Industry: Using R skills for CaRReeR Success**
-  </h4></center></td>
+  </h3></center></td>
   <td rowspan="2">
-  <img src="CC.png" style="width:100px"></img>
+  <img src="CC.png" style="width:100px" style="width:128px"></img>
   </td>
   </tr>
   <tr><td><center>
   **Katie Sasso-Schafer, Ph.D.** &nbsp;
-`r fa("twitter")` \@KatieSasso &nbsp;
-`r fa("envelope")` ktsasso\@gmail.com &nbsp;
-`r fa("linkedin")` <a href="https://www.linkedin.com/in/katiesasso/" style="text-decoration:none;">linkedin.com/in/katiesasso</a> &nbsp;
-`r fa("github")` <a href="https://github.com/ksasso/" style="text-decoration:none;">github.com/ksasso</a>
+<i class="fab fa-twitter"></i> \@KatieSasso &nbsp;
+<i class="fas fa-envelope"></i> ktsasso\@gmail.com &nbsp;
+<i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/katiesasso/" style="text-decoration:none;">linkedin.com/in/katiesasso</a> &nbsp;
+<i class="fab fa-github"></i> <a href="https://github.com/ksasso/" style="text-decoration:none;">github.com/ksasso</a>
   </center></td>
   </tr>
   </table> 
   
   <hr>
 
-## Body row {data-height=75}
+## Body row {data-height=77}
 
 ### **Key Steps** {data-width=400}
 
@@ -62,6 +65,9 @@ library(tidyverse)
 - Likely essential
 - Website a plus
 - Feature programming languages & methods
+    + "Experienced in R, SAS, Python"
+    + "Novice in HTML, CSS, etc"
+    + "Experinece implementing Neural Nets, Regression, etc"
     
 #### Networking & Applying
 
@@ -69,43 +75,105 @@ library(tidyverse)
 - Don't be afraid to ask!
 - Always best to hand resume to person
 - Postings = wishlists
+    + Go for it with ~70% alignment
+    + Tailor the "description" of your experience to highlight fit
+    + Hand your resume to a person when possible
+- Soft Skills 
+    + Showcase prior group work, mgmt, "client" facing roles
 
-### **How to flex your *"Analytics"* Skills** {data-width=800}
+```{r, eval = TRUE, out.width='100%', echo = FALSE, dpi=300}
+
+knitr::include_graphics('job_posting.png')
+```
 
 
-### **Key Tools** {data-width=400}
+### **How to showcase your "Analytics" Skills** {data-width=800}
 
-#### Material Prep
+#### CV --> 1 Page Resume `r emo::ji('joy')`
 
-- Panels of scientists convened to review grant applications
-- Reviewers serve 4-year terms, attending three meetings a year
+- Condense & Generalize Research Experience
+  + Examined how the relationship between the alliance and subsequent symptom change in depression treatment varies as a function of informant  --> _Applied HLM, factor analysis, and mediation in order to critically assess predictors of outcome and methods focused questions in depression treatment_
+  + Serve as a reviewer for several empirical journals --> _Critically evaluate research and provide written reviews and recommendation_
+  
+- Cut your publications section down to a bullet point --> _Publish empirical findings in multiple peer-reviewed journal outlets and speak at international conferences_
+  + Can provide link to google scholar citations if desired
 
-#### "Machine Learning"
+```{r, echo=FALSE, dpi=300, out.width='100%', out.height="125%"}
+knitr::include_graphics('pubs.png')
+```
 
-- Study section meeting rosters
-- Author-ity: disambiguated authors in biomedical literature
-- Web of Science: citations
+- Don’t assume anyone has any idea what a PhD with your background does, or is capable of doing
 
-#### Misc Details
+#### Get out there!
 
-- **Treatment**: Scientist-pairs that served on the same study section at the same time
-- **Control**: Scientist-pairs that served on the same study section but never at the same time
+- Showcase your skills
+    + Post your resume on LinkedIn
+    + Check your school for job boards
+    + Be mindful of your relationship with your advisor
+    + Don't forget to acknowledge your soft skills! (e.g., story telling, interpersonal skills, communication, problem solver)
+    
+- Network
+    + Many job fills go to personal connections
+    + Check local meet up sites for tech groups in town, like R Ladies!
+    + Talk to former grads of your program who chose non traditional paths
+    + Reach out for quick phone or coffee conversations
+    
+```{r, echo=FALSE, dpi = 300, fig.width=5, fig.height=5, fig.align='center'}
+knitr::include_graphics('rladies.png')
+```
+
+    
+### **Key Concepts** {data-width=400}
+
+#### R Packages
+
+- Build your resume using [pagedown](https://pagedown.rbind.io/#poster) 
+- Get up to speed on the sought after tool sets
+    + [XGBoost](https://cran.r-project.org/web/packages/xgboost/xgboost.pdf)
+    + [Caret](http://caret.r-forge.r-project.org/)
+    + [Recipes](https://tidymodels.github.io/recipes/) 
+
+#### Business Acronyms
+
+- BI: Business Intelligence
+    + Any kind of analyses that provide decision makers with information
+- “C-suite” 
+- ETL: Extract, Transform, Load
+  + The process of turning raw (usually dirty) data into something useful 
+- FTE: Full-time Employee 
+- NDA: Non-Disclosure Agreement
+  + A confidentiality contract between business entities
+- PTO: Paid Time Off
+  + Most common word for vacation time
+- POC: Proof of Concept
+  + a small-scaled version of a full product 
+
+#### ML "Buzz Words"
+
+- ML: Machine Learning
+  + Programming a computer to run a statistical model repeatedly (i.e., train it) in order to find the weighting of inputs that optimally reduces the error function associated with your output.
+- Feature Engineering
+  + The creation of new random variables from those already observed in the dataset
+- Supervised vs Unsupervised
+  + Statistical models in which the true answer is explicitly observed in your data vs. those where it is not
+
 
 ## Footer row {data-height=15} 
 
 ### Helpful Resources {data-width=45}
 
-- Repeated short-term interactions increase the total number of citations between a scientist-pair
-- Such interactions may influence the direction of science and allocation of credit
+- [Burtch Works Annual Data Science Salary Reports](https://www.burtchworks.com/2018/07/09/2018-data-scientist-salary-report-highlights/
+)
+- Transition programs like [Versatile PhD](https://versatilephd.com/
+) and [The Erdos Institute](https://www.erdosinstitute.org/)
 
-### Cheat Sheets {data-width=45}
-- Are there heterogeneous effects by intellectual distance?
-- Does the *direction* of citations matter?
-- Additional outcomes: coauthorship, textual measures of intellectual distance
+### Networking Outlets {data-width=45}
+- [R-Ladies!](https://rladies.org/)
+- [meetup.com for local tech meetups](meetup.com)
 
 ### Acknowledgments {data-width=20, .small}
 
 <small>
-I am grateful to Danielle Li, Vetle Torvik, and Neil Smalheiser for help with data. I received support from the NBER-IFS International Network on the Value of Medical Research.
+I'd like to acknowledge Kelly Denney, Ph.D. for assisting in the compilation of these materials
 </small>
 
