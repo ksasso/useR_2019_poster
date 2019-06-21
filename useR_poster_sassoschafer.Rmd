@@ -1,0 +1,38 @@
+---
+title: 'Transitioning from Academia to Industry'
+output:
+  postr::flex_dashboard_poster:
+    render_print: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(postr)
+library(fontawesome)
+library(tidyverse)
+```
+
+## Header row {data-height = 10}
+
+###
+<table style="width:100%">
+<tr>
+  <td><center><h3>
+  **Transitioning from Academia to Industry: Using R skills for CaRReeR Success**
+  </h3></center></td>
+  <td rowspan="2">
+  <img src="CC.png" style="width:128px"></img>
+  </td>
+</tr>
+<tr><td><center>
+  **Katie Sasso-Schafer, Ph.D.** &nbsp;
+  `r fa("twitter")` \@KatieSasso &nbsp;
+  `r fa("envelope")` ktsasso\@gmail.com &nbsp;
+  <i class="fas fa-globe"></i> <a href="https://wytham.rbind.io" style="text-decoration:none;">wytham.rbind.io</a> &nbsp;
+  <i class="fab fa-github"></i> <a href="https://github.com/weiyangtham" style="text-decoration:none;">github.com/weiyangtham</a>
+  </center></td>
+</tr>
+</table> 
+
+<hr>
+
