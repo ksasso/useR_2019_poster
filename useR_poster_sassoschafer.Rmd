@@ -2,7 +2,7 @@
 title: 'Transitioning from Academia to Industry'
 output:
   postr::flex_dashboard_poster:
-    render_print: false
+    render_print: true
 ---
 
 ```{r setup, include=FALSE}
@@ -12,27 +12,100 @@ library(fontawesome)
 library(tidyverse)
 ```
 
-## Header row {data-height = 10}
+<style>                     
+.navbar {
+  background-color:#f99d26;
+  border-color:#ffffff;
+}
+
+
+</style>   
+
+
+## Header row {data-height=10}
 
 ###
-<table style="width:100%">
-<tr>
-  <td><center><h3>
-  **Transitioning from Academia to Industry: Using R skills for CaRReeR Success**
-  </h3></center></td>
-  <td rowspan="2">
-  <img src="CC.png" style="width:128px"></img>
-  </td>
-</tr>
-<tr><td><center>
-  **Katie Sasso-Schafer, Ph.D.** &nbsp;
-  `r fa("twitter")` \@KatieSasso &nbsp;
-  `r fa("envelope")` ktsasso\@gmail.com &nbsp;
-  <i class="fas fa-globe"></i> <a href="https://wytham.rbind.io" style="text-decoration:none;">wytham.rbind.io</a> &nbsp;
-  <i class="fab fa-github"></i> <a href="https://github.com/weiyangtham" style="text-decoration:none;">github.com/weiyangtham</a>
-  </center></td>
-</tr>
-</table> 
 
-<hr>
+<table style="width:100%">
+  <tr>
+  <td><center><h4>
+  **Transitioning from Academia to Industry: Using R skills for CaRReeR Success**
+  </h4></center></td>
+  <td rowspan="2">
+  <img src="CC.png" style="width:100px"></img>
+  </td>
+  </tr>
+  <tr><td><center>
+  **Katie Sasso-Schafer, Ph.D.** &nbsp;
+`r fa("twitter")` \@KatieSasso &nbsp;
+`r fa("envelope")` ktsasso\@gmail.com &nbsp;
+`r fa("linkedin")` <a href="https://www.linkedin.com/in/katiesasso/" style="text-decoration:none;">linkedin.com/in/katiesasso</a> &nbsp;
+`r fa("github")` <a href="https://github.com/ksasso/" style="text-decoration:none;">github.com/ksasso</a>
+  </center></td>
+  </tr>
+  </table> 
+  
+  <hr>
+
+## Body row {data-height=75}
+
+### **Key Steps** {data-width=400}
+
+#### CV --> Resume
+
+- Research experience = Data Science Skills
+- Abstract away the subject matter
+- Mention tools, stats methods, data manipulation techniques
+
+#### LinkedIn
+
+- Likely essential
+- Website a plus
+- Feature programming languages & methods
+    
+#### Networking & Applying
+
+- A necessary "evil"
+- Don't be afraid to ask!
+- Always best to hand resume to person
+- Postings = wishlists
+
+### **How to flex your *"Analytics"* Skills** {data-width=800}
+
+
+### **Key Tools** {data-width=400}
+
+#### Material Prep
+
+- Panels of scientists convened to review grant applications
+- Reviewers serve 4-year terms, attending three meetings a year
+
+#### "Machine Learning"
+
+- Study section meeting rosters
+- Author-ity: disambiguated authors in biomedical literature
+- Web of Science: citations
+
+#### Misc Details
+
+- **Treatment**: Scientist-pairs that served on the same study section at the same time
+- **Control**: Scientist-pairs that served on the same study section but never at the same time
+
+## Footer row {data-height=15} 
+
+### Helpful Resources {data-width=45}
+
+- Repeated short-term interactions increase the total number of citations between a scientist-pair
+- Such interactions may influence the direction of science and allocation of credit
+
+### Cheat Sheets {data-width=45}
+- Are there heterogeneous effects by intellectual distance?
+- Does the *direction* of citations matter?
+- Additional outcomes: coauthorship, textual measures of intellectual distance
+
+### Acknowledgments {data-width=20, .small}
+
+<small>
+I am grateful to Danielle Li, Vetle Torvik, and Neil Smalheiser for help with data. I received support from the NBER-IFS International Network on the Value of Medical Research.
+</small>
 
