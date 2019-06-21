@@ -73,7 +73,6 @@ library(emo)
 
 - A necessary "evil"
 - Don't be afraid to ask!
-- Always best to hand resume to person
 - Postings = wishlists
     + Go for it with ~70% alignment
     + Tailor the "description" of your experience to highlight fit
@@ -92,11 +91,18 @@ knitr::include_graphics('job_posting.png')
 #### CV --> 1 Page Resume `r emo::ji('joy')`
 
 - Condense & Generalize Research Experience
-  + Examined how the relationship between the alliance and subsequent symptom change in depression treatment varies as a function of informant  --> _Applied HLM, factor analysis, and mediation in order to critically assess predictors of outcome and methods focused questions in depression treatment_
-  + Serve as a reviewer for several empirical journals --> _Critically evaluate research and provide written reviews and recommendation_
+
+  + Examined how the relationship between the alliance and subsequent symptom change in depression treatment varies as a function of informant
+    - _Applied HLM, factor analysis, and mediation in order to critically assess predictors of outcome and methods focused questions in depression treatment_
   
-- Cut your publications section down to a bullet point --> _Publish empirical findings in multiple peer-reviewed journal outlets and speak at international conferences_
-  + Can provide link to google scholar citations if desired
+  + Serve as a reviewer for several empirical journals
+    - _Critically evaluate research and provide written reviews and recommendations_
+  
+- Cut your publications section down to a bullet point
+  + Can provide link to Google scholar citations if desired
+    - _Publish empirical findings in multiple peer-reviewed journal outlets and speak at international conferences_
+  
+  
 
 ```{r, echo=FALSE, dpi=300, out.width='100%', out.height="125%"}
 knitr::include_graphics('pubs.png')
@@ -109,7 +115,7 @@ knitr::include_graphics('pubs.png')
 - Showcase your skills
     + Post your resume on LinkedIn
     + Check your school for job boards
-    + Be mindful of your relationship with your advisor
+    + Be mindful of your relationship with your advisor 
     + Don't forget to acknowledge your soft skills! (e.g., story telling, interpersonal skills, communication, problem solver)
     
 - Network
